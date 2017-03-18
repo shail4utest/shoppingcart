@@ -32,4 +32,5 @@ class ShoppingCartSpec extends FlatSpec with Matchers{
     ShoppingCart.checkout(Array( "Orange", "Apple" , "not-available")) should be (.85)
   }
 
+
 }
