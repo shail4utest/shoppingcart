@@ -8,7 +8,8 @@ import store.offers.Offers
 trait ShoppingCart extends Offers{
   def checkout(items:Array[String]) = {
 
-    items.count(_.equalsIgnoreCase("Apple")) * 0.60 + items.count(_.equalsIgnoreCase("Orange")) * 0.25
+    items.count(_.equalsIgnoreCase("Apple")) * 0.60 +
+      items.count(_.equalsIgnoreCase("Orange")) * 0.25
 
   }
 
