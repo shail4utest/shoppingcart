@@ -17,3 +17,7 @@ Offers on Store
  How to run the Store e.g.
 
   sbt "run Apple Apple Orange Orange Orange"
+
+How to run the test
+
+sbt test
