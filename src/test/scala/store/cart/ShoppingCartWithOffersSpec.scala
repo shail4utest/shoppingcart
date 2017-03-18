@@ -10,4 +10,11 @@ class ShoppingCartWithOffersSpec extends FlatSpec with Matchers{
     ShoppingCart.checkoutWithOffers(Array("apple", "apple")) should be (0.60)
   }
 
+  "Price of 3 Apples" should "cost 1.20 on checkout" in {
+    ShoppingCart.checkoutWithOffers(Array("apple", "apple","apple")) should be (1.20)
+  }
+
+  "Price of 4 Apples" should "cost 1.20 on checkout" in {
+    ShoppingCart.checkoutWithOffers(Array("apple", "apple","apple","apple")) should be (1.20)
+  }
 }
