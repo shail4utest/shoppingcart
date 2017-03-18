@@ -6,6 +6,8 @@ import store.offers.Offers
   * Created by shailesh on 18/03/2017.
   */
 trait ShoppingCart extends Offers{
+
+
   def checkout(items:Array[String]) = {
 
     items.count(_.equalsIgnoreCase("Apple")) * 0.60 +
