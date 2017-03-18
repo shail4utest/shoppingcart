@@ -11,6 +11,7 @@ The Store only sells Apples and Oranges hence any thing else passed in the array
 Offers on Store
 
  Buy one, get one free on Apples
+ 
  3 for the price of 2 on Oranges
 
  How to run the Store e.g.
