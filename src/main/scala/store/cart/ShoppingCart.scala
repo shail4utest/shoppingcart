@@ -14,7 +14,8 @@ trait ShoppingCart extends Offers{
 
   def checkoutWithOffers(items:Array[String]) = {
 
-    buyOneGetOneFree(items.count(_.equalsIgnoreCase("Apple")) , 0.60 )
+    buyOneGetOneFree(items.count(_.equalsIgnoreCase("Apple")) , 0.60 ) +
+      threeForTwo(items.count(_.equalsIgnoreCase("Orange")) ,0.25)
 
   }
 
