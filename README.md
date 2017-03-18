@@ -9,6 +9,7 @@ Assuming the input items is an Array of String   e.g.  Array("Orange" , "Apple")
 The Store only sells Apples and Oranges hence any thing else passed in the array will be ignored
 
 Offers on Store
+
  Buy one, get one free on Apples
  3 for the price of 2 on Oranges
 
