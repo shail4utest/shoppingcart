@@ -16,4 +16,8 @@ class ShoppingCartSpec extends FlatSpec with Matchers{
     ShoppingCart.checkout(Array("apple", "apple")) should be (1.20)
   }
 
+  "Price of 2 Oranges" should "cost 0.50 on checkout" in {
+    ShoppingCart.checkout(Array("orange", "orange")) should be (0.50)
+  }
+
 }
